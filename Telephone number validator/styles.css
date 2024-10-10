@@ -1,0 +1,60 @@
+/* styles.css */
+
+/* Set background color to blue */
+body {
+    background-color: #007bff;
+  }
+  
+  /* Set font color to white */
+  body, input, button, #results-div {
+    color: #0c0202;
+  }
+  
+  /* Set font family to sans-serif */
+  body {
+    font-family: sans-serif;
+  }
+  
+  /* Set input field to white background and black border */
+  input {
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 8px;
+    width: 300px;
+  }
+  
+  /* Set button to white background and black border */
+  button {
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 8px 16px;
+  }
+  
+  /* Set button color to blue on hover */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Set results div to white background and black border */
+  #results-div {
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 8px;
+    width: 300px;
+    margin-top: 16px;
+  }
+  
+  /* Add some padding to the results div */
+  #results-div {
+    padding: 16px;
+  }
+  
+  /* Add some margin to the buttons */
+  #check-btn, #clear-btn {
+    margin-right: 16px;
+  }
+  
+  /* Add some margin to the input field */
+  #user-input {
+    margin-right: 16px;
+  }
